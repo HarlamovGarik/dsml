@@ -33,9 +33,10 @@ if __name__ == "__main__":
         datas.append(filter_data)
 
     datas = pd.concat(datas)
-    print(datas.sale_date)
+    # print(datas.sale_date)
     datas.insert(1, "quarter_group", [str(value.quarter) + "-квартал" for value in datas.sale_date.to_list()])
-    datas.insert(2, "type_building", [add_build_category(category) for category in datas.building_class_category.to_list()])
+    datas.insert(2, "type_building",
+                 [add_build_category(category) for category in datas.building_class_category.to_list()])
     group_by_new_building = datas[datas.year_built == 0].groupby(["borough"], as_index=False, group_keys=True).count()
     group_by_sale_quarter = datas[datas.year_built == 0].groupby(["borough", "quarter_group"], as_index=False).sum()
     print(group_by_new_building)
@@ -62,7 +63,7 @@ if __name__ == "__main__":
            ylabel="Number of transactions")
     data_building_class = filter_data.groupby(["building_class_at_present"]).count()
     print(data_building_class)
-    group_by_type_building = datas.groupby(["quarter_group","type_building"], as_index=False).sum()
+    group_by_type_building = datas.groupby(["quarter_group", "type_building"], as_index=False).sum()
     sns.barplot(data=group_by_type_building,
                 x=group_by_type_building.type_building,
                 hue=group_by_type_building.quarter_group)
