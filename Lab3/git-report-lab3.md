@@ -1,5 +1,5 @@
 ### Data Analysis 
-During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.
+<p>During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.</p><br>
 ![describe](img/describe.jpg)
 <b>84.04%</b> Sedan is four doors.<br>
 * It was reasonable if missed data for the number of doors will be replace by four.<br>
