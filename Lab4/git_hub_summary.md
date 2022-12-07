@@ -4,19 +4,21 @@
 <img src="img/child_mort clasification methods.jpg" alt="text">
 <p>За графіками кластерів наглядно видно що метод Dbscan не підходить, найкращими методами можно виявити спектральний метод та k-mean очікування-максимізації</p>
 <p>Використовуючи метод очікування максимізації побудуємо всі наступні графіки з автоматичним виявилення кількость центрів</p>
+<br>
 ## Проводимо кореляцію даних для визначення цінних рис
-![feature corr](img/feature_corr.png)
-За даною кореляцію можна зазначити наступне:
+<br>
+<img src="img/feature_corr.png" alt="text">
+<p>За даною кореляцію можна зазначити наступне:</p>
 * Як і очіковалось <b>термін життя</b> сильно залежить від дитячою смертності, а також народжуванності дитини а також від дохіда
 * Як і очікувалось теж саме стосується "продолородності"
 Тож можно не звертати увагу на ці дані
-![feature corr](img/gdpp_child_mort_clasification_features.jpg)
+<img src="img/img/gdpp_child_mort_clasification_features.jpg" alt="text">
 Як можно побачити більш нужденні країни знаходиться в 0 кластері з великою смертністю дітей і нізькою Валовим внутрішнім продуктом
-![feature corr](img/gdpp_health_clasification_features.jpg)
+<img src="img/gdpp_health_clasification_features.jpg" alt="text">
 Як можно побачити більш нужденні країни знаходиться в 1 кластері з низьким відсотком вкладенням коштів в здоров'є і нізькою Валовим внутрішнім продуктом
-![feature corr](img/gdpp_imports_clasification_features.jpg)
-![feature corr](img/resulat_clustering.png)
+<img src="img/gdpp_imports_clasification_features.jpg" alt="text">
+<img src="img/resulat_clustering.png" alt="text">
 Після остаточної кластерізації всіх вказаних рис можно побачити зв'язок, 3 кластер відносить себе до стран яким треба допомогити 
 Країни 3-світу
-![feature corr](img/urgent_need.png)
+<img src="img/urgent_need.png" alt="text">
 Всі останні країни надані в результуючуми файлі
