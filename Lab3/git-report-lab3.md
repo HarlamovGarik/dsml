@@ -38,7 +38,7 @@ We exclude extreme data, the total number decreased to 180
 * City mpg feature vs Price is 0.714, p-value is 2.591260715545443e-29<br>
 * Highway mpg feature vs Price is 0.699, p-value is 1.0327686400384447e-27
 
-#### from the following features of the car, the most influential can be singled out:
+<p>from the following features of the car, the most influential can be singled out:</p>
 
 * <b>Curb weight</b> feature vs Price is 0.838, p-value is 1.3532161301065677e-48<br>
 * <b>Horsepower</b> feature vs Price is 0.769, p-value is 2.0073201202419802e-36<br>
