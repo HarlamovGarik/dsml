@@ -50,6 +50,7 @@ We exclude extreme data, the total number decreased to 180
 ### Visualization
 
 <p>general characteristics broken down by product manufacturer and body type</p>
+
 | ![general characteristics](img/general_characteristics.jpg) |
 |:--:|
 |<b>Img.1 - general characteristics</b>|
