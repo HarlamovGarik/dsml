@@ -2,11 +2,11 @@
 During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.<br>
 ![describe](img/describe.jpg)
 <b>84.04%</b> Sedan is four doors.
-* It was reasonable if missed data for the number of doors will be replace by four.<br>
+* It was reasonable if missed data for the number of doors will be replace by four.
 ![num_of_doors.jpg](num_of_doors.jpg)
-We exclude extreme data, the total number decreased to 180<br>
+<p>We exclude extreme data, the total number decreased to 180</p>
 ![result discribe](img/Result_description.png)
-<br>
+
 ### Correlation
 
 After the correlation of the data, 20 features remained from the 26 presented, and the 3 most important features were also determined.
@@ -29,7 +29,8 @@ After the correlation of the data, 20 features remained from the 26 presented, a
 * Horsepower feature vs Price is 0.769, p-value is 2.0073201202419802e-36<br>
 * Peak rpm feature vs Price is 0.046, p-value is 0.5410315199111934<br>
 * City mpg feature vs Price is 0.714, p-value is 2.591260715545443e-29<br>
-* Highway mpg feature vs Price is 0.699, p-value is 1.0327686400384447e-27<br>
+* Highway mpg feature vs Price is 0.699, p-value is 1.0327686400384447e-27
+
 #### from the following features of the car, the most influential can be singled out:
 
 * <b>Curb weight</b> feature vs Price is 0.838, p-value is 1.3532161301065677e-48<br>
@@ -40,27 +41,37 @@ After the correlation of the data, 20 features remained from the 26 presented, a
 * Fuel system feature vs Price is 0.671, p-value is 7.219421668533878e-25<br>
 
 ### Visualization
-general characteristics broken down by product manufacturer and body type
+
+<p>general characteristics broken down by product manufacturer and body type</p>
 | ![general characteristics](img/general_characteristics.jpg) |
 |:--:|
 |<b>Img.1 - general characteristics</b>|
+
 As can be seen from the graphs, the most expensive cars are Jaguar, Mercedes-Benz, Porsche and BMW<br>
 The largest number of presented cars from the manufacturer toyota<br>
 The most diverse styles of the car are represented by a hardtop and a convertible with a minimum price of 12 thousand and a maximum of about 30 thousand and more
+
 | ![linear regresssion models](img/linear_regression_model.jpg) |
 |:--:|
 |<b>Img.2 - linear reg characteristics</b>|
+
 The fuel consumption ratio in the city and outside the city increases, and the price decreases. The situation is reversed with the size of the engine, as the size increases, the price increases.
+
 | ![box-and-whisker plot model.jpg](img/box-and-whisker_plot_model.jpg) |
 |:--:|
 |<b>Img.3 - box-plot characteristics</b>|
+
 * According to the chart above, rear-engine cars have an average price of 35,000, front-engined cars range in price from 8,000 to 30,000, and the median is around 10,000.<br> But there are a small number that fall outside their chart . the price varies from 30 thousand to more than 45 thousand.<br>
 * The driving wheels of expensive cars are of the rwd type, the median number is about 17,000 and the larger number is concentrated from 14,000 to about 23,000.
+
 | ![importences features](img/importences_features.jpg) |
 |:--:|
 |<b>Img.4 - Importences features using RandomForest</b>|
+
 Using powerful tree-based ML models (random forest), calculated importences featyres
+
 | ![linear regresssion models](img/output.png) |
 |:--:|
 |<b>Img.5 - Correalation features </b>|
+
 Correlation of the data that we marked as important was carried out
