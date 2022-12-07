@@ -2,11 +2,16 @@
 During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.
 <br>
 ![describe](img/describe.jpg)
+<br>
 <b>84.04%</b> Sedan is four doors.<br>
-* It was reasonable if missed data for the number of doors will be replace by four.<br>
+* It was reasonable if missed data for the number of doors will be replace by four.
+<br>
 ![num_of_doors.jpg](attachment:967456c0-26c0-451d-8814-abb4c2569397.jpg)![analyze_missing_num_of_doors](img/num_of_doors.jpg)
+<br>
 We exclude extreme data, the total number decreased to 180
+<br>
 ![result discribe](img/Result_description.png)
+<br>
 ### Correlation
 
 After the correlation of the data, 20 features remained from the 26 presented, and the 3 most important features were also determined.
