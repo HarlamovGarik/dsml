@@ -11,7 +11,7 @@ During the study of the given data frame, it was decided to reject the zero valu
 
 We exclude extreme data, the total number decreased to 180
 
-![describe](img/Result_description.png)
+![describe](img/result_description.png)
 
 ### Correlation
 
