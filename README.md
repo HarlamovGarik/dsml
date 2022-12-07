@@ -1,4 +1,4 @@
-#DSML
+# DSML
 
 [Lab2 report](Lab2/report.ipynb)
 [Lab3 report](Lab3/git-report-lab3.md)
