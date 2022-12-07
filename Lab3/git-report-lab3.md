@@ -4,15 +4,20 @@
 ![describe](img/describe.jpg)
 
 <b>84.04%</b> Sedan is four doors.
+
 * It was reasonable if missed data for the number of doors will be replace by four.
+
 ![num_of_doors.jpg](num_of_doors.jpg)
+
 <p>We exclude extreme data, the total number decreased to 180</p>
+
 ![result discribe](img/Result_description.png)
 
 ### Correlation
 
 <p>After the correlation of the data, 20 features remained from the 26 presented, and the 3 most important features were also determined.</p>
 <b>Features vs Price:</b>
+
 * Symboling feature vs Price is 0.036, p-value is 0.6331842154850545<br>
 * Normalized losses feature vs Price is 0.317, p-value is 1.4352759788069227e-05<br>
 * Make feature vs Price is 0.005, p-value is 0.9465789197062073<br>
