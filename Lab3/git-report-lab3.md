@@ -1,6 +1,8 @@
 ### Data Analysis 
-During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.<br>
+<p>During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.</p>
+
 ![describe](img/describe.jpg)
+
 <b>84.04%</b> Sedan is four doors.
 * It was reasonable if missed data for the number of doors will be replace by four.
 ![num_of_doors.jpg](num_of_doors.jpg)
@@ -9,7 +11,7 @@ During the study of the given data frame, it was decided to reject the zero valu
 
 ### Correlation
 
-After the correlation of the data, 20 features remained from the 26 presented, and the 3 most important features were also determined.
+<p>After the correlation of the data, 20 features remained from the 26 presented, and the 3 most important features were also determined.</p>
 <b>Features vs Price:</b>
 * Symboling feature vs Price is 0.036, p-value is 0.6331842154850545<br>
 * Normalized losses feature vs Price is 0.317, p-value is 1.4352759788069227e-05<br>
@@ -47,15 +49,15 @@ After the correlation of the data, 20 features remained from the 26 presented, a
 |:--:|
 |<b>Img.1 - general characteristics</b>|
 
-As can be seen from the graphs, the most expensive cars are Jaguar, Mercedes-Benz, Porsche and BMW<br>
+<p>As can be seen from the graphs, the most expensive cars are Jaguar, Mercedes-Benz, Porsche and BMW<br>
 The largest number of presented cars from the manufacturer toyota<br>
-The most diverse styles of the car are represented by a hardtop and a convertible with a minimum price of 12 thousand and a maximum of about 30 thousand and more
+The most diverse styles of the car are represented by a hardtop and a convertible with a minimum price of 12 thousand and a maximum of about 30 thousand and more</p>
 
 | ![linear regresssion models](img/linear_regression_model.jpg) |
 |:--:|
 |<b>Img.2 - linear reg characteristics</b>|
 
-The fuel consumption ratio in the city and outside the city increases, and the price decreases. The situation is reversed with the size of the engine, as the size increases, the price increases.
+<p>The fuel consumption ratio in the city and outside the city increases, and the price decreases. The situation is reversed with the size of the engine, as the size increases, the price increases.</p>
 
 | ![box-and-whisker plot model.jpg](img/box-and-whisker_plot_model.jpg) |
 |:--:|
@@ -68,10 +70,10 @@ The fuel consumption ratio in the city and outside the city increases, and the p
 |:--:|
 |<b>Img.4 - Importences features using RandomForest</b>|
 
-Using powerful tree-based ML models (random forest), calculated importences featyres
+<p>Using powerful tree-based ML models (random forest), calculated importences featyres</p>
 
 | ![linear regresssion models](img/output.png) |
 |:--:|
 |<b>Img.5 - Correalation features </b>|
 
-Correlation of the data that we marked as important was carried out
+<p>Correlation of the data that we marked as important was carried out</p>
