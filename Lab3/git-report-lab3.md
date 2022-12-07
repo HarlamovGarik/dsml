@@ -1,5 +1,5 @@
 ### Data Analysis 
-<p>During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.</p>
+During the study of the given data frame, it was decided to reject the zero values of the price, to replace all numerical values with the average, and to process the string values separately.
 
 ![describe](img/describe.jpg)
 
@@ -9,7 +9,7 @@
 
 ![num_of_doors.jpg](num_of_doors.jpg)
 
-<p>We exclude extreme data, the total number decreased to 180</p>
+We exclude extreme data, the total number decreased to 180
 
 ![result discribe](img/Result_description.png)
 
