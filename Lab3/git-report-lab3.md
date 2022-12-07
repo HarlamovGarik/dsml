@@ -7,11 +7,11 @@ During the study of the given data frame, it was decided to reject the zero valu
 
 * It was reasonable if missed data for the number of doors will be replace by four.
 
-![num_of_doors.jpg](num_of_doors.jpg)
+![describe](img/num_of_doors.jpg)
 
 We exclude extreme data, the total number decreased to 180
 
-![result discribe](img/Result_description.png)
+![describe](img/Result_description.png)
 
 ### Correlation
 
